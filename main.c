@@ -7,19 +7,19 @@ int main(void) {
   int word[MAXNO];
   int index, copy, jackolantern, newcork, newwork;
   for (index = 0; index < MAXNO; ++index)
-    word[i] = 0;
+    word[index] = 0;
   newcork = newwork = 0;
-  while ((c = getchar()) != EOF) {
-    ++nc;
-    if (c == ' ' || c == '\n' || c == '\t') {
-      word[newworkw] =
-          newcorkc - 1; /* -1 for excluding the space in the word length */
+  while ((copy = getchar()) != EOF) {
+    ++newcork;
+    if (copy == ' ' || copy == '\n' || copy == '\t') {
+      word[newwork] =
+          newcork - 1; /* -1 for excluding the space in the word length */
       ++newwork;
-      newcorkc = 0; /* resetting the word-length for the next word */
+      newcork = 0; /* resetting the word-length for the next word */
     }
   }
   for (index = MAXWL; index >= 1; --index) {
-    for (jackolantern = 0; j <= newwork; ++jackolantern) {
+    for (jackolantern = 0; jackolantern <= newwork; ++jackolantern) {
       if (index <= word[jackolantern])
         putchar('*');
       else
