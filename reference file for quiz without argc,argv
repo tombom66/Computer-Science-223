@@ -7,7 +7,7 @@ int main(int argc, const char* argv[])
      char read;// we will use this to read in the file
 // this opens the files into read mode only and not write mode
      files= fopen ("spectre_writing_on_the_wall.txt", "r");
-     if()
+     
      while(1)//infinite loop
      {
         read = fgetc(files);
