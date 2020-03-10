@@ -19,10 +19,3 @@ int main(int argc, const char* argv[])
      fclose(files);// close the read in file when you exit the loop
      return 0;
 }
-void writelines(FILE*fout,char*lineptr[],int nlines){
-  printf("writing lines........\n\n");
-  while(nlines -->0){
-    printf("visiting... %s\n",*lineptr);
-    printf(fout,"\n\n", *lineptr);
-  }
-}
